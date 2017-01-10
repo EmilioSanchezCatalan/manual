@@ -1,0 +1,26 @@
+.jumbotron h1{
+	font-size: 3em;
+}
+.jumbotron h2{
+	font-size: 1.8em;
+}
+.jumbotron p{
+	font-size: 1.3em;
+	padding-left: 80px;
+}
+.box{
+	background-color: white;
+}
+.box2{
+	background-color: white;
+	margin-top: 30px;
+}
+iframe{
+	max-width: 895px;
+	width: 100%;
+	height: 450px;
+}
+.footer-text{
+	margin-bottom: 25px;
+	color: #6F767F;
+}

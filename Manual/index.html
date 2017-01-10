@@ -3,13 +3,105 @@
 <head>
 	<title>Manual app</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css_own/index.css">
 </head>
-<body>
-	<ul class="nav nav-tabs">
-	  <li role="presentation" class="active"><a href="#">Home</a></li>
-	  <li role="presentation"><a href="#">Profile</a></li>
-	  <li role="presentation"><a href="#">Messages</a></li>
-	</ul>
-<script src='js/bootstrap.min.js'></script>
+<body style="background-color: black">
+	<header>
+		<div class="row">
+			<div class="col-md-12">
+				<img src="imagenes/app.jpg" class="img-responsive">
+				<dir class="box boxpos">
+					<h1>
+						Cibus App
+					</h1>
+					<hr style="opacity: 0.6">
+					<p>
+						Esta aplicación android te permite realizar la gestión de pedidos de un restaurante, agilizando los procesos para tener un mayor rendimiento en el negocio. Proporcionando de esta forma mayor comodidad a los clientes.
+					</p>
+					<button type="button" class="btn btn-primary download" onclick="location.href ='https://github.com/EmilioSanchezCatalan/sm1617_g04_p3.git'">
+						Descargar
+					</button>
+				</dir>
+			</div>
+		</div>
+	</header>
+	<article class="jumbotron">
+		<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<img src="imagenes/authQR.png" class="img-thumbnail" style="max-width: 250px; max-height: 500px">
+					<div class="caption">
+						<h3>Autenticación QR | Cliente</h3>
+						<button type="button" class="btn btn-primary" onclick="location.href ='pags/authQR.html'">Mas información</button>
+					</div>	
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<img src="imagenes/authSimple.png" class="img-thumbnail" style="max-width: 250px; max-height: 500px">
+					<div class="caption">
+						<h3>Autenticación Básica | Propietarios</h3>
+						<button type="button" class="btn btn-primary" onclick="location.href ='pags/authSimple.html'">Mas información</button>
+					</div>	
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<img src="imagenes/scanner.png" class="img-thumbnail" style="max-width: 250px; max-height: 500px; display: block;">
+					<div class="caption">
+						<h3>Scanner</h3>
+						<button type="button" class="btn btn-primary" onclick="location.href ='pags/scanner.html'">Mas información</button>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<img src="imagenes/listado.png" class="img-thumbnail" style="max-width: 250px; max-height: 500px">
+					<div class="caption">
+						<h3>Menú</h3>
+						<button type="button" class="btn btn-primary" onclick="location.href ='pags/lista.html'">Mas información</button>
+					</div>	
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<img src="imagenes/cierre.png" class="img-thumbnail" style="max-width: 250px; max-height: 500px">
+					<div class="caption">
+						<h3>Cierre de sesión</h3>
+						<button type="button" class="btn btn-primary" onclick="location.href ='pags/logout.html'">Mas información</button>
+					</div>	
+				</div>
+			</div>		
+		</div>
+	</article>
+	<article class="jumbotron recolor">
+		<div class="container">
+			<p align="center">
+				<iframe class = "embed-container" src="https://www.youtube.com/embed/PwojtT4mb_k"  allowfullscreen></iframe>
+
+			</p>
+
+		</div>
+		<a href="pags/googlePlay.html">
+			<img src="imagenes/googleplay_button.png" class="img-responsive pulsada" style="margin-left: 20px; max-width: 326px; max-height: 80px;">	
+		</a>
+	</article>
+	<footer>
+		<div class="row">
+			<div class="col-md-3">
+				<p>
+					© 2017 CibusSL
+			</div>
+			<div class="col-md-9">
+				<p  class="footer-text">
+					Diseñado por Emilio Sánchez y Víctor Manuel Pérez | esc00019@gmail.com | vmpc0002@red.ujaen.es
+				</p>
+			</div>
+		</div>
+		
+	</footer>
+
 </body>
 </html>
